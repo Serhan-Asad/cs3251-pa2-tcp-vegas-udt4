@@ -21,16 +21,4 @@ Vegas is a **delay-based** congestion control algorithm: instead of waiting for 
 - C/C++ (UDT4 framework)
 - UDT4 CCC interface
 
-## Project Layout
-- `src/cc.h` — Vegas congestion control implementation (main file edited)
 
-## Build / Run
-This repo is based on the provided UDT4/PA2 framework. To run it, follow the course-provided build instructions for the PA2 harness/environment.
-
-> Note: I intentionally do not include course PDFs/handouts in this repository.
-
-## Key Concepts Demonstrated
-- Transport-layer congestion control
-- RTT measurement and queueing delay inference
-- Congestion window (CWND) tuning
-- Throughput vs latency trade-offs
